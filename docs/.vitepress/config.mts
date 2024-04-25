@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "HaiTang's cooking guide",
   description: "Discover, collect, share, completely open source and free",
+  base: '/docs-food/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
