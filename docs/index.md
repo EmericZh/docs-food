@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "HaiTang's cooking guide"
+  name: ""
   text: "Discover, collect, share, completely open source and free"
-  tagline: My great project tagline
+  tagline: 
   actions:
     - theme: brand
       text: Markdown Examples
