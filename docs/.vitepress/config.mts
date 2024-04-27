@@ -19,12 +19,75 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: '菜单', link: '/markdown-examples' }
     ],
+    // 侧边栏
     sidebar: [
       {
-        text: 'Examples',
+        text: '简介',
+        collapsed: false,
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '什么是OSCG？', link: '/guide/what-is-oscg' }
+        ]
+      },
+      {
+        text: '',
+        items: [
+          { text: '热门菜', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '调料秘方',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '菜系',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '场景',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '烘焙',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '人群',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '小吃',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '主食',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
+        ]
+      },
+      {
+        text: '外国菜谱',
+        items: [
+          { text: 'todo1', link: '/guide/popular-dishes' },
+          { text: 'todo2', link: '/guide/popular-dishes' }
         ]
       }
     ],
