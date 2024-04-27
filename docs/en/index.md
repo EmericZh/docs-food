@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 什么是OSCG？
-      link: /guide/what-is-oscg
+      link: /en/guide/what-is-oscg
     - theme: alt
       text: 热门菜
-      link: /api-examples
+      link: /en/api-examples
 
 features:
   - title: 调料秘方
